@@ -88,7 +88,7 @@
 - Removed drivechain support using OP_COUNT_ACKS
 - Proof-of-stake related code optimized and refactored
 
-## v2.1.0.1 (2018-10-01)
+## v2.13.3.0 (2018-10-01)
 
 - Rebranded to Kindcoin
 - Some small fixes and updates from Bitcoin Core 0.13.x branch
