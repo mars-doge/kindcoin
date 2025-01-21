@@ -9,7 +9,7 @@ What is Kindcoin?
 Kindcoin is a decentralised digital currency with near-instant transaction speeds and negligible transaction fees built upon Proof of Stake 3.0 (PoSV3, BPoS) as
 introduced by the Kindcoin development team.
 
-For more information about Kindcoin itself, see https://kindcoin.org.
+For more information about Kindcoin itself, see https://kindcoin.cc.
 
 What is Kindcoin?
 ----------------
