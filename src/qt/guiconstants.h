@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Kindcoin"
-#define QAPP_ORG_DOMAIN "kindcoinmore.org"
+#define QAPP_ORG_DOMAIN "kindcoin.cc"
 #define QAPP_APP_NAME_DEFAULT "Kindcoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Kindcoin-Qt-testnet"
 

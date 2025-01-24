@@ -1,4 +1,8 @@
 # Changelog
+## v13.3.0 (2024-1-24)
+- Changed Dev Fund Donation to 0% taking pre-mine into consideration.
+- Fixed Kindcoin wallet icon.
+
 ## v13.2.0 (2022-11-24)
 - Changed versioning (backport of Core's PR20223)
 - Testnet hard fork: Removed transaction timestamp
