@@ -22,9 +22,9 @@ For more information, as well as an immediately useable, binary version of the K
 Ports
 -----
 
-P2P | 21538
---- | ---
-RPC | 21537
+P2P | RPC
+------------ | -------------
+21538 | 21537
 
 License
 -------
