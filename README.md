@@ -19,6 +19,13 @@ Bitcoin Core 0.13.2 with some patches from newer Bitcoin Core versions to offer 
 
 For more information, as well as an immediately useable, binary version of the Kindcoin software, see https://kindcoin.cc.
 
+Ports
+-----
+
+P2P | 21538
+--- | ---
+RPC | 21537
+
 License
 -------
 
