@@ -1,5 +1,6 @@
+<center>
 ![foxdemo](https://kindcoin.cc/git/img/kcGITicon.png) 
-Kindcoin Core [KCCC, K]
+Kindcoin Core [KCCC, K] </center>
 =====================================
 
 https://kindcoin.cc
