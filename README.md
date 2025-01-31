@@ -1,5 +1,8 @@
 <div align="center">
+
 ![foxdemo](https://kindcoin.cc/git/img/kcGITicon.png) 
+#
+
 Kindcoin Core [KCCC, K] </div>
 =====================================
 
