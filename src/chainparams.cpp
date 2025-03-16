@@ -1,5 +1,9 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2009-2015 The Bitcoin Core Developers
+// Copyright (c) 2014-2018 The Blackcoin Developers
+// Copyright (c) 2018-2025 The Blackcoin More Developers
+// Copyright (c) 2023-2025 The Kindcoin Developers
+
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -184,7 +188,7 @@ public:
                     0      // * estimated number of transactions per day after checkpoint
         };
 
-        // A vector of p2sh addresses
+        // A vector of p2sh addresses - Disabled
         vDevFundAddress = { "KFZFbZ2zYoDzA6CAzf1ffAdT53mqWr93AF" };
     }
 };
@@ -289,7 +293,7 @@ public:
             0
         };
 
-        // A vector of p2sh addresses
+        // A vector of p2sh addresses - Disabled
         vDevFundAddress = { "TBdSApTarJSCFY7JjdFnX4Yry3yajMtTeP" };
 
     }
@@ -424,7 +428,7 @@ void UpdateRegtestBIP9Parameters(Consensus::DeploymentPos d, int64_t nStartTime,
     regTestParams.UpdateBIP9Parameters(d, nStartTime, nTimeout);
 }
 
-// Kindcoin: Donations to dev fund 
+// Kindcoin: Donations to Dev Fund - Disabled
 std::string CChainParams::GetDevFundAddress() const
 {
     return vDevFundAddress[0];
