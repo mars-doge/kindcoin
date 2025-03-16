@@ -505,20 +505,21 @@ std::string LicenseInfo()
            "\n" +
            FormatParagraph(strprintf("Copyright (C) %i-%i The Blackcoin More Developers", 2018, COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf("Copyright (C) %i The Kindcoin Developers", 2025)) + "\n" +
+           FormatParagraph(strprintf("Copyright (C) %i-%i The Kindcoin Developers", 2023, COPYRIGHT_YEAR)) + "\n" +
            "\n" +
-           FormatParagraph(strprintf(_("Please contribute if you find Kindcoin useful. "
-                       "Visit %s for further information about the software."),
-               URL_WEBSITE)) +
+           FormatParagraph(_("Please contribute if you find Kindcoin useful. ")) + "\n" +
+           FormatParagraph(strprintf("Visit %s for further information about the software."),
+               URL_WEBSITE) +
            "\n" +
-           FormatParagraph(strprintf(_("The source code is available from %s."),
-               URL_SOURCE_CODE)) +
+           FormatParagraph(strprintf("The source code is available from %s."),
+               URL_SOURCE_CODE) +
            "\n" +
            "\n" +
            FormatParagraph(_("This is experimental software.")) + "\n" +
            FormatParagraph(_("Distributed under the MIT software license, see the accompanying file COPYING or <http://www.opensource.org/licenses/mit-license.php>.")) + "\n" +
            "\n" +
-           _("This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit <https://www.openssl.org/> and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.") +
+           FormatParagraph(_("This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit")) + "\n" + 
+           FormatParagraph(_("<https://www.openssl.org/> and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.")) +
            "\n";
 }
 

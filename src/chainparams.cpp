@@ -158,7 +158,7 @@ public:
         assert(consensus.hashGenesisBlock == uint256S("0x00000b798a1040f831d48d2ca7099cd7d7ebb1565a8c7f10811b8a91bd014265"));
         assert(genesis.hashMerkleRoot == uint256S("0xeac59731a14e59c0ee4c50bff2aed54f9690ec71d811b13d26c0e2301744246c"));
 
-        vSeeds.push_back(CDNSSeedData("walletbuilders.com", "node3.walletbuilders.com"));
+        vSeeds.push_back(CDNSSeedData("kindcoin.cc", "node.kindcoin.cc"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,45);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,46);
